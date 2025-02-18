@@ -1,0 +1,162 @@
+{
+    "name": "sql_server_to_sql_server655__2025-02-18--10-52-32-260371",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "sql_server_to_sql_server655",
+                    "description": "adsdas",
+                    "source_name": "QA_SRC_SQL",
+                    "target_names": [
+                        "QA_TRG_SQL"
+                    ]
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "QA_SRC_SQL",
+                        "database_name": "QA_SRC_SQL"
+                    },
+                    "source_tables": {
+                        "name": "QA_SRC_SQL",
+                        "explicit_included_tables": [
+                            {
+                                "owner": "test_rep",
+                                "name": "emp",
+                                "estimated_size": 5,
+                                "orig_db_id": 1474104292,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "test_rep",
+                                "name": "sal",
+                                "estimated_size": 4,
+                                "orig_db_id": 1554104577,
+                                "validation_sampling_percentage": 0
+                            }
+                        ]
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "QA_TRG_SQL",
+                            "target_state": "DISABLED",
+                            "database_name": "QA_TRG_SQL"
+                        }
+                    }
+                ],
+                "manipulations": [
+                    {
+                        "name": "test_rep.emp",
+                        "table_manipulation": {
+                            "owner": "test_rep",
+                            "name": "emp",
+                            "new_table_name": "emp",
+                            "transform_columns": [
+                                {
+                                    "column_name": "ename",
+                                    "action": "DROP",
+                                    "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                                }
+                            ],
+                            "source_table_settings": {
+                                "unload_segments": {
+                                    "ranges": {},
+                                    "entry_names": {}
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "name": "test_rep.sal",
+                        "table_manipulation": {
+                            "owner": "test_rep",
+                            "name": "sal",
+                            "new_table_name": "sal_change",
+                            "source_table_settings": {
+                                "unload_segments": {
+                                    "ranges": {},
+                                    "entry_names": {}
+                                }
+                            }
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "default_schema": "trg_rep",
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {},
+                        "artifacts_cleanup_enabled": false
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "lob_max_size": 9,
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "audit_table_settings": {},
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "b4c48267-e35b-d24f-a5f5-e201db2837f6",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                },
+                "global_manipulation": {
+                    "name": "global_manipulation",
+                    "rules": [
+                        {
+                            "action": "RENAME_TABLE",
+                            "name": "Rename table 1",
+                            "expression": "'test_' || $AR_M_MODIFIED_TABLE_NAME",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "ADD_PREFIX",
+                            "to_value": "test_"
+                        }
+                    ]
+                },
+                "configurations": [
+                    {
+                        "name": "test_rep.emp"
+                    },
+                    {
+                        "name": "test_rep.sal"
+                    }
+                ]
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-18 10:52:32.260371"
+}
