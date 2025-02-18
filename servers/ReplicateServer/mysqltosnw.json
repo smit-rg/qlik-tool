@@ -1,0 +1,112 @@
+{
+    "name": "mysqltosnw__2025-02-18--10-51-32-355020",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "mysqltosnw",
+                    "source_name": "Mysql testing",
+                    "target_names": [
+                        "SnowFlake"
+                    ]
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "Mysql testing",
+                        "database_name": "Mysql testing"
+                    },
+                    "source_tables": {
+                        "name": "Mysql testing",
+                        "explicit_included_tables": [
+                            {
+                                "owner": "sampledb",
+                                "name": "customers",
+                                "estimated_size": 25,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "sampledb",
+                                "name": "employees",
+                                "estimated_size": 25,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "sampledb",
+                                "name": "inventory",
+                                "estimated_size": 100,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "sampledb",
+                                "name": "orders",
+                                "estimated_size": 25,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "sampledb",
+                                "name": "payments",
+                                "estimated_size": 25,
+                                "validation_sampling_percentage": 0
+                            }
+                        ]
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "SnowFlake",
+                            "target_state": "DISABLED",
+                            "database_name": "SnowFlake"
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {}
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "audit_table_settings": {},
+                        "apply_changes_enabled": false,
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "7a0fa82a-630d-c446-bec6-4f9574245054",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-18 10:51:32.355020"
+}
