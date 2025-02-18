@@ -1,0 +1,79 @@
+{
+    "name": "Task1__2025-02-18--10-51-14-886268",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "Task1",
+                    "source_name": "sql_src_1",
+                    "target_names": [
+                        "sql_tar_1"
+                    ]
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "sql_src_1",
+                        "database_name": "sql_src_1"
+                    },
+                    "source_tables": {
+                        "name": "sql_src_1"
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "sql_tar_1",
+                            "target_state": "DISABLED",
+                            "database_name": "sql_tar_1"
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {}
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "audit_table_settings": {},
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "9c7e39fb-9949-e843-ba34-c5b0b14d9cad",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-18 10:51:14.886268"
+}
