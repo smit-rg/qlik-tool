@@ -1,0 +1,1037 @@
+{
+    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG__2025-02-20--09-29-31-992345",
+    "cmd.replication_definition": {
+        "tasks": [
+            {
+                "task": {
+                    "name": "Cus_1_SQL2SQL_VALID_1_TblSchNameCHG",
+                    "source_name": "sql_src_2",
+                    "target_names": [
+                        "sql_tar_2"
+                    ]
+                },
+                "source": {
+                    "rep_source": {
+                        "source_name": "sql_src_2",
+                        "database_name": "sql_src_2"
+                    },
+                    "source_tables": {
+                        "name": "sql_src_2",
+                        "explicit_included_tables": [
+                            {
+                                "owner": "dbo",
+                                "name": "Table_1",
+                                "estimated_size": 10000,
+                                "orig_db_id": 901578250,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_10",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1189579276,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_100",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1922105888,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_11",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1221579390,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_12",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1253579504,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_13",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1285579618,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_14",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1317579732,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_15",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1349579846,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_16",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1381579960,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_17",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1413580074,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_18",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1445580188,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_19",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1477580302,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_2",
+                                "estimated_size": 10000,
+                                "orig_db_id": 933578364,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_20",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1509580416,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_21",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1541580530,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_22",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1573580644,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_23",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1605580758,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_24",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1637580872,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_25",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1669580986,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_26",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1701581100,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_27",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1733581214,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_28",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1765581328,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_29",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1797581442,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_3",
+                                "estimated_size": 10000,
+                                "orig_db_id": 965578478,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_30",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1829581556,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_31",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1861581670,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_32",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1893581784,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_33",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1925581898,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_34",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1957582012,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_35",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1989582126,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_36",
+                                "estimated_size": 10000,
+                                "orig_db_id": 2021582240,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_37",
+                                "estimated_size": 10000,
+                                "orig_db_id": 2053582354,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_38",
+                                "estimated_size": 10000,
+                                "orig_db_id": 2085582468,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_39",
+                                "estimated_size": 10000,
+                                "orig_db_id": 2117582582,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_4",
+                                "estimated_size": 10000,
+                                "orig_db_id": 997578592,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_40",
+                                "estimated_size": 10000,
+                                "orig_db_id": 2099048,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_41",
+                                "estimated_size": 10000,
+                                "orig_db_id": 34099162,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_42",
+                                "estimated_size": 10000,
+                                "orig_db_id": 66099276,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_43",
+                                "estimated_size": 10000,
+                                "orig_db_id": 98099390,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_44",
+                                "estimated_size": 10000,
+                                "orig_db_id": 130099504,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_45",
+                                "estimated_size": 10000,
+                                "orig_db_id": 162099618,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_46",
+                                "estimated_size": 10000,
+                                "orig_db_id": 194099732,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_47",
+                                "estimated_size": 10000,
+                                "orig_db_id": 226099846,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_48",
+                                "estimated_size": 10000,
+                                "orig_db_id": 258099960,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_49",
+                                "estimated_size": 10000,
+                                "orig_db_id": 290100074,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_5",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1029578706,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_50",
+                                "estimated_size": 10000,
+                                "orig_db_id": 322100188,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_51",
+                                "estimated_size": 10000,
+                                "orig_db_id": 354100302,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_52",
+                                "estimated_size": 10000,
+                                "orig_db_id": 386100416,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_53",
+                                "estimated_size": 10000,
+                                "orig_db_id": 418100530,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_54",
+                                "estimated_size": 10000,
+                                "orig_db_id": 450100644,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_55",
+                                "estimated_size": 10000,
+                                "orig_db_id": 482100758,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_56",
+                                "estimated_size": 10000,
+                                "orig_db_id": 514100872,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_57",
+                                "estimated_size": 10000,
+                                "orig_db_id": 546100986,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_58",
+                                "estimated_size": 10000,
+                                "orig_db_id": 578101100,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_59",
+                                "estimated_size": 10000,
+                                "orig_db_id": 610101214,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_6",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1061578820,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_60",
+                                "estimated_size": 10000,
+                                "orig_db_id": 642101328,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_61",
+                                "estimated_size": 10000,
+                                "orig_db_id": 674101442,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_62",
+                                "estimated_size": 10000,
+                                "orig_db_id": 706101556,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_63",
+                                "estimated_size": 10000,
+                                "orig_db_id": 738101670,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_64",
+                                "estimated_size": 10000,
+                                "orig_db_id": 770101784,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_65",
+                                "estimated_size": 10000,
+                                "orig_db_id": 802101898,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_66",
+                                "estimated_size": 10000,
+                                "orig_db_id": 834102012,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_67",
+                                "estimated_size": 10000,
+                                "orig_db_id": 866102126,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_68",
+                                "estimated_size": 10000,
+                                "orig_db_id": 898102240,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_69",
+                                "estimated_size": 10000,
+                                "orig_db_id": 930102354,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_7",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1093578934,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_70",
+                                "estimated_size": 10000,
+                                "orig_db_id": 962102468,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_71",
+                                "estimated_size": 10000,
+                                "orig_db_id": 994102582,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_72",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1026102696,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_73",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1058102810,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_74",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1090102924,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_75",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1122103038,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_76",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1154103152,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_77",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1186103266,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_78",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1218103380,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_79",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1250103494,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_8",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1125579048,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_80",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1282103608,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_81",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1314103722,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_82",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1346103836,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_83",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1378103950,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_84",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1410104064,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_85",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1442104178,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_86",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1474104292,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_87",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1506104406,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_88",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1538104520,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_89",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1570104634,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_9",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1157579162,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_90",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1602104748,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_91",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1634104862,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_92",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1666104976,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_93",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1698105090,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_94",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1730105204,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_95",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1762105318,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_96",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1794105432,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_97",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1826105546,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_98",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1858105660,
+                                "validation_sampling_percentage": 0
+                            },
+                            {
+                                "owner": "dbo",
+                                "name": "Table_99",
+                                "estimated_size": 10000,
+                                "orig_db_id": 1890105774,
+                                "validation_sampling_percentage": 0
+                            }
+                        ]
+                    }
+                },
+                "targets": [
+                    {
+                        "rep_target": {
+                            "target_name": "sql_tar_2",
+                            "target_state": "DISABLED",
+                            "database_name": "sql_tar_2"
+                        }
+                    }
+                ],
+                "task_settings": {
+                    "source_settings": {},
+                    "target_settings": {
+                        "queue_settings": {
+                            "message_shape": {},
+                            "key_shape": {}
+                        },
+                        "ftm_settings": {}
+                    },
+                    "sorter_settings": {
+                        "local_transactions_storage": {}
+                    },
+                    "common_settings": {
+                        "change_table_settings": {
+                            "handle_ddl": false,
+                            "header_columns_settings": {}
+                        },
+                        "audit_table_settings": {},
+                        "dr_settings": {},
+                        "statistics_table_settings": {},
+                        "bidi_table_settings": {},
+                        "task_uuid": "272e8b5b-ac5a-6642-8bf9-ac02914f2f4c",
+                        "status_table_settings": {},
+                        "suspended_tables_table_settings": {},
+                        "history_table_settings": {},
+                        "exception_table_settings": {},
+                        "recovery_table_settings": {},
+                        "data_batching_settings": {},
+                        "data_batching_table_settings": {},
+                        "log_stream_settings_depricated": {},
+                        "ddl_history_table_settings": {},
+                        "customized_charset_settings": {
+                            "validation": {
+                                "sub_char": 0
+                            }
+                        }
+                    }
+                },
+                "global_manipulation": {
+                    "name": "global_manipulation",
+                    "rules": [
+                        {
+                            "action": "REPLACE_COLUMN_VALUE",
+                            "name": "CLEAN KBFLAG",
+                            "column": {
+                                "where_column_name": "KBFLAG",
+                                "new_data_type": "kAR_DATA_TYPE_BYTES",
+                                "new_length": 2,
+                                "new_precision": 0,
+                                "new_scale": 0,
+                                "computation_expression": "ifnull(nullif(replace($AR_M_SOURCE_COLUMN_DATA,' ',''),''),hex(''))",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME"
+                        },
+                        {
+                            "action": "REPLACE_COLUMN_VALUE",
+                            "name": "STRING REMOVE NULLS",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 0,
+                                "computation_expression": "rtrim(ifnull($AR_M_SOURCE_COLUMN_DATA,''),' ')",
+                                "where_expression": "$AR_M_SOURCE_COLUMN_NAME NOT like '%/%'",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME"
+                        },
+                        {
+                            "action": "REPLACE_COLUMN_VALUE",
+                            "name": "DATE NULLS TO VALUES",
+                            "column": {
+                                "where_column_name": "%",
+                                "where_data_type_group": "SPECIFIC_DATATYPE",
+                                "where_data_type": "kAR_DATA_TYPE_DATE",
+                                "new_data_type": "kAR_DATA_TYPE_DATE",
+                                "new_length": 0,
+                                "new_precision": 0,
+                                "new_scale": 0,
+                                "computation_expression": "max(CASE\nWHEN (\n  strftime(\"%m\",ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')))='02'\n  and strftime(\"%d\",ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')))='29'\n  and\n  (\n    strftime(\"%Y\",ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')))%400!=0\n    and\n        (NOT\n          (\n          strftime(\"%Y\",ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')))%4=0\n          AND strftime(\"%Y\",ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')))%100!=0\n          )\n        )\n  )\n) THEN date('1900-01-01')\nELSE min(ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')),date(date(date(ifnull(coalesce(date($AR_M_SOURCE_COLUMN_DATA),date(substr($AR_M_SOURCE_COLUMN_DATA,1,4) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,9,2) || '-' || substr($AR_M_SOURCE_COLUMN_DATA,6,2)),date('1900-01-01')),date('1900-01-01')),'+1 months'),'start of month'),'-1 days')) END,date('1900-01-01'))",
+                                "where_expression": "$AR_M_SOURCE_COLUMN_NAME NOT like '%/%'",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME"
+                        },
+                        {
+                            "action": "REPLACE_COLUMN_VALUE",
+                            "name": "TIME NULLS TO VALUES",
+                            "column": {
+                                "where_column_name": "%",
+                                "where_data_type_group": "SPECIFIC_DATATYPE",
+                                "where_data_type": "kAR_DATA_TYPE_TIME",
+                                "new_data_type": "kAR_DATA_TYPE_TIME",
+                                "new_length": 0,
+                                "new_precision": 0,
+                                "new_scale": 0,
+                                "computation_expression": "ifnull(time($AR_M_SOURCE_COLUMN_DATA),time('00:00:00'))",
+                                "where_expression": "$AR_M_SOURCE_COLUMN_NAME NOT like '%/%'",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME"
+                        },
+                        {
+                            "action": "REPLACE_COLUMN_VALUE",
+                            "name": "DATETIME NULLS TO VALUES",
+                            "column": {
+                                "where_column_name": "%",
+                                "where_data_type_group": "SPECIFIC_DATATYPE",
+                                "where_data_type": "kAR_DATA_TYPE_TIMESTAMP",
+                                "new_data_type": "kAR_DATA_TYPE_TIMESTAMP",
+                                "new_length": 0,
+                                "new_precision": 0,
+                                "new_scale": 0,
+                                "computation_expression": "ifnull(datetime($AR_M_SOURCE_COLUMN_DATA),datetime('1900-01-01 00:00:00'))",
+                                "where_expression": "$AR_M_SOURCE_COLUMN_NAME NOT like '%/%'",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "Add Source System Name",
+                            "expression": "'SOURCE_SYSTEM'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 5,
+                                "computation_expression": "\"G9\"",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "Add QREP_TIMESTAMP",
+                            "expression": "'QREP_TIMESTAMP'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 20,
+                                "computation_expression": "datetime('now')",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "Add ZRECORD_MODE",
+                            "expression": "'ZRECORD_MODE'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 3,
+                                "computation_expression": "ifnull(operation_indicator('D', 'U', 'I'),'I')",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_TASK_START_TIME_UTC",
+                            "expression": "'QR_TASK_START_TIME_UTC'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_TIMESTAMP",
+                                "new_length": 0,
+                                "new_precision": 0,
+                                "new_scale": 6,
+                                "computation_expression": "datetime($AR_V_TASK_START_TIME,'utc')",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_SERVER_NAME",
+                            "expression": "'QR_SERVER_NAME'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 255,
+                                "computation_expression": "$AR_V_HOST_NAME",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_TASK_NAME",
+                            "expression": "'QR_TASK_NAME'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 255,
+                                "computation_expression": "$AR_V_TASK_NAME",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_TASK_UUID",
+                            "expression": "'QR_TASK_UUID'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 260,
+                                "computation_expression": "$AR_V_TASK_UUID",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_SOURCE_ENDPOINT",
+                            "expression": "'QR_SOURCE_ENDPOINT'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 255,
+                                "computation_expression": "$AR_V_SOURCE_NAME",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "QR_TARGET_ENDPOINT",
+                            "expression": "'QR_TARGET_ENDPOINT'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 255,
+                                "computation_expression": "$AR_V_TARGET_NAME",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "ADD_COLUMN",
+                            "name": "ADD STREAM POSITION",
+                            "expression": "'QR_STREAM_POSITION'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "new_length": 500,
+                                "computation_expression": "$AR_H_STREAM_POSITION",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME_EXPRESSION"
+                        },
+                        {
+                            "action": "RENAME_TABLE",
+                            "name": "RENAME_TABLE",
+                            "where_table_name": "%e%",
+                            "expression": " $AR_M_MODIFIED_TABLE_NAME || '_TEST'",
+                            "column": {
+                                "where_column_name": "%",
+                                "new_data_type": "kAR_DATA_TYPE_STR",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "ADD_SUFFIX",
+                            "to_value": "_TEST"
+                        },
+                        {
+                            "action": "RENAME_SCHEMA",
+                            "name": "Rename schema to TestSchema_2",
+                            "expression": "'TestSchema_2'",
+                            "column": {
+                                "where_column_name": "%",
+                                "where_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED",
+                                "new_sub_data_type": "KAR_SUB_DATA_TYPE_UNSPECIFIED"
+                            },
+                            "sub_action": "RENAME",
+                            "to_value": "TestSchema_2"
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "_version": {
+        "version": "2023.11.0.282",
+        "version_major": 2023,
+        "version_minor": 11,
+        "version_revision": 282
+    },
+    "description": "Host name: WIN-LJK7B2SUH8D.Demo.com, Time: 2025-02-20 09:29:31.992345"
+}
