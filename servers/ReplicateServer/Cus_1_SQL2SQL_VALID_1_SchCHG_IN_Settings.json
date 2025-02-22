@@ -1,5 +1,5 @@
 {
-    "name": "Cus_1_SQL2SQL_VALID_1_SchCHG_IN_Settings__2025-02-18--10-51-17-386270",
+    "name": "Cus_1_SQL2SQL_VALID_1_SchCHG_IN_Settings__2025-02-22--15-08-49-496993",
     "cmd.replication_definition": {
         "tasks": [
             {
@@ -745,7 +745,7 @@
                         "local_transactions_storage": {}
                     },
                     "common_settings": {
-                        "lob_max_size": 18,
+                        "lob_max_size": 25,
                         "change_table_settings": {
                             "handle_ddl": false,
                             "header_columns_settings": {}
@@ -1025,5 +1025,5 @@
         "version_minor": 11,
         "version_revision": 282
     },
-    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-18 10:51:17.386270"
+    "description": "Host name: DESKTOP-2N5P0UC, Time: 2025-02-22 15:08:49.496993"
 }
